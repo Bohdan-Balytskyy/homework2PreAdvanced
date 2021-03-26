@@ -1,0 +1,79 @@
+extends common/layout
+
+block content
+  section.howWorks
+    h2.howWorks__h2 How Dreamshare works?
+    .howWorks__box
+      .howWorks__box__left
+        .howWorks__box__left__reference
+          a.howWorks__box__left__reference__link(href='#') STEP 1
+        h3.howWorks__box__left__h3 Sed leo enim, condimentum
+        p.howWorks__box__left__text
+          | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+      .howWorks__box__center
+        .howWorks__box__center__reference
+          a.howWorks__box__center__reference__link(href='#') STEP 2
+        h3.howWorks__box__center__h3 Morbi velit risus
+        p.howWorks__box__center__text
+          | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+      .howWorks__box__right
+        .howWorks__box__right__reference
+          a.howWorks__box__right__reference__link(href='#') STEP 3
+        h3.howWorks__box__right__h3 Sed leo enim, condimentum
+        p.howWorks__box__right__text
+          | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+  section.choosePartner
+    h2.choosePartner__h2 Meet a partner for your best holiday
+    .choosePartner__image
+      .choosePartner__image__left
+        .choosePartner__image__left__hunter
+          .choosePartner__image__left__hunter__avatar
+          p.choosePartner__image__left__hunter__name Bradley Hunter
+          p.choosePartner__image__left__hunter__about Based in Chicago. I love playing tennis and loud music.
+        .choosePartner__image__left__bennett
+          .choosePartner__image__left__bennett__avatar
+          p.choosePartner__image__left__bennett__name Marie Bennett
+          p.choosePartner__image__left__bennett__about Currently living in Colorado. Lover of art, languages and travelling.
+      .choosePartner__image__right
+        .choosePartner__image__right__wells
+          .choosePartner__image__right__wells__avatar
+          p.choosePartner__image__right__wells__name Diana Wells
+          p.choosePartner__image__right__wells__about
+            | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+        .choosePartner__image__right__pierce
+          .choosePartner__image__right__pierce__avatar
+          p.choosePartner__image__right__pierce__name Christopher Pierce
+          p.choosePartner__image__right__pierce__about Star Wars fanatic. I have a persistent enthusiasm to create new things.
+    .choosePartner__reference
+      a.choosePartner__reference__link(href='#') See other partners
+  section.ideas
+    h2.ideas__h2 Discover holiday activity ideas
+    .ideas__row1
+      .ideas__row1__image1
+        h4.ideas__row1__image1__h4.vis1 Sports and Activis
+        h4.ideas__row1__image1__h4.vis2 Sports and
+        h4.ideas__row1__image1__h4.vis2 Activis
+      .ideas__row1__image2
+        h4.ideas__row1__image2__h4.vis1 Wellness and Health
+        h4.ideas__row1__image2__h4.vis2 Wellness and
+        h4.ideas__row1__image2__h4.vis2 Health
+      .ideas__row1__image3
+        h4.ideas__row1__image3__h4 Extreme Sports
+        h4.ideas__row1__image3__h4 and Expeditions
+    .ideas__row2
+      .ideas__row2__image1
+        h4.ideas__row2__image1__h4 Games
+      .ideas__row2__image2
+        h4.ideas__row2__image2__h4 Culture and Education
+    .ideas__row3
+      .ideas__row3__image1
+        h4.ideas__row3__image1__h4 Enjomet and Relaxation
+      .ideas__row3__image2
+        h4.ideas__row3__image2__h4 Trevelling
+  section.create
+    h2.create__h2 Crate your holiday activity
+    p.create__text Hi! What are your holiday interests?
+    form.create__form(action='')
+      input.create__form__input(type='text', placeholder='Enter your insterests')
+      button.create__form__button
+        span.create__form__button__span Search partners
